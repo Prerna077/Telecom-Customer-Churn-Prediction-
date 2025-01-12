@@ -5,20 +5,19 @@ Welcome to the *Telecom Customer Churn Prediction* project! This repository cont
 ---
 
 ## 📜 Table of Contents
-# Importing Libraries
-# Loading Dataset
-# Exploratory Data Analysis
-# Outliers using the IQR method
-# Cleaning and Transforming Data
-# One-hot Encoding
-# Rearranging Columns
-# Feature Scaling
-# Feature Selection
-# Prediction using Logistic Regression
-# Prediction using Support Vector Classifier
-# Prediction using Decision Tree Classifier
-# Prediction using KNN Classifier
-
+#### Importing Libraries
+#### Loading Dataset
+#### Exploratory Data Analysis
+#### Outliers using the IQR method
+#### Cleaning and Transforming Data
+#### One-hot Encoding
+#### Rearranging Columns
+#### Feature Scaling
+#### Feature Selection
+#### Prediction using Logistic Regression
+#### Prediction using Support Vector Classifier
+#### Prediction using Decision Tree Classifier
+#### Prediction using KNN Classifier
 ---
 
 ## 🧐 Overview
@@ -40,7 +39,7 @@ Customer churn refers to customers ending their association with a business. For
 - *Machine Learning Models*:  
   - Logistic Regression  
   - Decision Trees  
-  - Random Forest  
+  - K-Nearest Neighbour(KNN)  
   - Support Vector Machines (SVM)  
 
 
@@ -48,10 +47,7 @@ Customer churn refers to customers ending their association with a business. For
   - Key metrics: Accuracy, Precision, Recall, F1-Score, ROC-AUC.  
   - Confusion matrix and feature importance visualization.  
 
-- *Actionable Insights*:  
-  Identify high-risk customers and provide recommendations for retention.  
 
----
 
 ## 🛠 Technologies Used
 - *Python Libraries*:  
@@ -68,7 +64,7 @@ The dataset includes:
 - *Service Details*: Contract type, Internet service, etc.  
 - *Account Information*: Tenure, Monthly charges, etc.  
 - *Churn Label*: Indicates if a customer left the service.  
-
+*Source*: [Telco Customer Churn Dataset]( https://www.kaggle.com/datasets/blastchar/telco-customer-churn )
  
 
 ---
